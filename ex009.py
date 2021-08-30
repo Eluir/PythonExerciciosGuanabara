@@ -4,5 +4,5 @@ a = int(input('Digite um número\n'))
 c = 1
 
 while c < 11:
-    print(f'{a} x {c} = {a * c}')
+    print(f'{a} x {c:2} = {a * c}')
     c = c + 1
